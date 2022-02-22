@@ -1,14 +1,16 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include<stdio.h>
 int main()
 {
-    int i, j, n ;
+    int i,j,n;
     scanf("%d",&n);
-    for (i = n; i >= 1; i--) {
-        for (j = 1; j <= i; j++) {
-            cout << (char)('A' - 1 + i) << " ";
-        }
-        cout << endl;
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=i;j++)
+    {
+        printf("%d",j);
+    }
+    printf("
+");
     }
     return 0;
 }
