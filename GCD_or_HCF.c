@@ -1,14 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,i;
+    int i,a,b,hcf;
     scanf("%d%d",&a,&b);
-    for(i=a+b;i>0;i--)
+    for(i=1;i<=a||i<=b;i++)
     {
         if(a%i==0 && b%i==0)
-        {
-            printf("%d",i);
-            break;
-        }
+        hcf=i;
     }
+    printf("%d",hcf);
+    return 0;
 }
