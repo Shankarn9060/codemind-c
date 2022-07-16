@@ -1,4 +1,3 @@
-//kattappa and bahubali
 #include<stdio.h>
 int main()
 {
